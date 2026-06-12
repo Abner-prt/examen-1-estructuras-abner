@@ -1,0 +1,16 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "abner",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx ts-node src/index.ts",
+    "build" : "tsc",
+    "preview" : "node dist/index.js"
+
+  }
+}
